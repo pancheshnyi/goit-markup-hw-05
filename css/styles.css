@@ -638,6 +638,14 @@ img {
   fill: #2e2f42;
 }
 
+.modal-close-btn:hover {
+  background-color: #404bbf;
+}
+
+.modal-close-btn:hover .modal-icon-close {
+  fill: #fff;
+}
+
 .modal-title {
   font-weight: 500;
   font-size: 16px;
@@ -699,6 +707,10 @@ img {
   transform: translateY(-50%);
 }
 
+.modal-field-textarea {
+  margin-bottom: 16px;
+}
+
 .modal-textarea {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -713,6 +725,48 @@ img {
   letter-spacing: 0.04em;
   outline: transparent;
   resize: none;
+}
+
+.modal-textarea:focus {
+  border-color: #4d5ae5;
+}
+
+.modal-check-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+
+  a {
+    line-height: 1.33333;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+  }
+
+  span {
+    /* display: inline-block; непотрібно є flex */
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+  }
+}
+
+.modal-check:checked + .modal-check-text span {
+  background-color: #404bbf;
+  border-radius: 2px;
+  border: 1px solid #404bbf;
+  fill: #f4f4fd;
 }
 
 .modal-btn {
