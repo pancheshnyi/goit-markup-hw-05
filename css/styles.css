@@ -706,11 +706,12 @@ img {
 
 .modal-close-btn:hover {
   background-color: #404bbf;
+  fill: #ffffff;
   border: none;
 }
 
 .modal-close-btn:hover .modal-icon-close {
-  fill: #fff;
+  fill: #ffffff;
 }
 
 .modal-close-btn:focus {
