@@ -709,15 +709,17 @@ img {
   border: none;
 }
 
-.modal-close-btn:hover .modal-icon-close {
+.modal-close-btn:hover .modal-icon-close,
+.modal-close-btn:focus .modal-icon-close {
   fill: #ffffff;
+  border: none;
 }
 
-.modal-close-btn:focus .modal-icon-close {
-  /* background-color: #404bbf; */
-  border: none;
-  fill: #ffffff;
-}
+/* .modal-close-btn:focus .modal-icon-close { */
+/* background-color: #404bbf; */
+/* border: none; */
+/* fill: #ffffff; */
+/* } */
 
 .modal-title {
   font-weight: 500;
