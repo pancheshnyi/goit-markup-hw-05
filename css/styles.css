@@ -637,12 +637,11 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
   color: #ffffff;
-  /* padding-left: 16px; */
 }
 
 .footer-form-icon {
-  width: 24px;
-  height: 24px;
+  /* width: 24px;
+  height: 24px; */
   margin-left: 16px;
   fill: #ffffff;
 }
