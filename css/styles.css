@@ -573,6 +573,10 @@ img {
   background-color: #31d0aa;
 }
 
+/* .footer-main-subscribe {
+  display: flex;
+} */
+
 .footer-form {
   display: flex;
   align-items: flex-end;
@@ -590,6 +594,7 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  margin-left: 80px;
 }
 
 .footer-input {
@@ -637,6 +642,7 @@ img {
 
 .footer-form-icon {
   height: 24px;
+  width: 24px;
   margin-left: 16px;
   fill: #ffffff;
 }
