@@ -716,12 +716,6 @@ img {
   border: none;
 }
 
-/* .modal-close-btn:focus .modal-icon-close { */
-/* background-color: #404bbf; */
-/* border: none; */
-/* fill: #ffffff; */
-/* } */
-
 .modal-title {
   font-weight: 500;
   font-size: 16px;
@@ -810,10 +804,11 @@ img {
   border-color: #4d5ae5;
 }
 
-/* .modal-checkbox {
-  width: 16px;
-  height: 16px;
-} */
+/* -------------------------------------------------- */
+.modal-checkbox {
+  display: inline-flex;
+}
+/* ----------------------------------------------------- */
 
 .modal-checkbox-container {
   margin-bottom: 24px;
