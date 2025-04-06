@@ -640,8 +640,6 @@ img {
 }
 
 .footer-form-icon {
-  /* width: 24px;
-  height: 24px; */
   margin-left: 16px;
   fill: #ffffff;
 }
@@ -828,8 +826,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
-  align-items: center;
+
+  /* display: flex; */
+  /* align-items: center; */
   /* margin-bottom: 24px; */
 }
 
