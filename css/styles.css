@@ -706,7 +706,6 @@ img {
 
 .modal-close-btn:hover {
   background-color: #404bbf;
-  /* fill: #ffffff; */
   border: none;
 }
 
@@ -715,9 +714,8 @@ img {
 }
 
 .modal-close-btn:focus .modal-icon-close {
-  background-color: #404bbf;
+  /* background-color: #404bbf; */
   border: none;
-  /* ------------------------ */
   fill: #ffffff;
 }
 
